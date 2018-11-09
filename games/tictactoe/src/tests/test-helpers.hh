@@ -52,6 +52,7 @@ protected:
     {
         delete players[0].api;
         delete players[1].api;
+        delete st;
     }
 
     GameState* st;

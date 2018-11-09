@@ -28,8 +28,6 @@ public:
     bool is_player_turn(int player_id) const;
 
 private:
-    rules::Players_sptr players_;
-
     std::unordered_map<int, bool> is_player_turn_;
     std::vector<int> board_;
 };

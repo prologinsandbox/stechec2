@@ -2,7 +2,6 @@
 
 GameState::GameState(rules::Players_sptr players)
     : rules::GameState()
-    , players_(players)
     , board_({NO_PLAYER, NO_PLAYER, NO_PLAYER, NO_PLAYER, NO_PLAYER, NO_PLAYER,
               NO_PLAYER, NO_PLAYER, NO_PLAYER})
 {
